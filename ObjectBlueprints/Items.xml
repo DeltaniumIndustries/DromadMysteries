@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <object Name="DromadMysteryBox" Inherits="Item">
+        <part Name="DromadMysteryOpener"/>
+        <part Name="Render" DisplayName="&amp;Y~&amp;Rm&amp;oy&amp;Os&amp;Wt&amp;Ge&amp;Br&amp;my &amp;Ybox~" Tile="Assets_Content_Textures_Tiles_sw_chest.bmp" DetailColor="M" ColorString="&amp;y" Occluding="false" RenderIfDark="true" RenderLayer="6" />
+        <part Name="Commerce" Value="5" />
+        <part Name="Description" Short="Those merchants really do carry some surprises" />
+        <part Name="AnimatedMaterialGeneric" AnimationLength="70" LowFrameOffset="1" HighFrameOffset="1" ColorStringAnimationFrames="" DetailColorAnimationFrames="0=R,10=O,20=W,30=G,40=C,50=B,60=M" />
+        <tag Name="ForceSmartUse" />
+        <tag Name="Tier" Value="2" />
+        <tag Name="Mods" Value="" />
+    </object>
+    <object Name="DromadTrader" Load="Merge">
+        <inventoryobject Blueprint="DromadMysteryBox" Number="3-12" />
+    </object>
+</objects>

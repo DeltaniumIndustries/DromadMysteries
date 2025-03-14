@@ -1,0 +1,10 @@
+{
+	"id": "DromadMysteryBoxes",
+	"loadorder": 1,
+	"title": "Dromad Mystery Boxes (1.0 Fix)",
+	"description": "Dromad traders will sell you mysterious boxes that might contain anything. Seriously, anything.\n\nGood luck! \n\n\nThis mod has had work done to enable it to function with Release 1.0. All attempts to retain all original functionality have been made, but the updating author provides no support. -LL",
+	"tags": "silly,random,items",
+	"version": "1.2.1",
+	"author": "{{glotrot|LunarLaurus}}",
+	"previewImage": "preview.png"
+}
